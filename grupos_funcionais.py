@@ -12,6 +12,10 @@ my_seed = 32
 
 rd.seed(my_seed)
 
+#########################
+#   Grupos funcionais   #
+#########################
+
 grupos_funcionais = {
         "Ácidos carboxilicos alifáticos": {
             "Massa Molecular": rd.uniform(0.5, 50),
@@ -780,6 +784,11 @@ grupos_funcionais = {
         },
     }
 
+
+#########################
+#   Gerador aleatório   #
+#########################
+
 def grupo_funcional_aleatorio(grupos_f=grupos_funcionais):
     lista_grupos = list(grupos_f.keys())
     grupo = rd.choice(lista_grupos)
@@ -792,6 +801,10 @@ def grupo_funcional_aleatorio(grupos_f=grupos_funcionais):
 
     return grupo_dic
 
+
+#########################
+#   Detector de grupos  #
+#########################
 
 def detector_de_grupos_funcionais(mol_name):
     compound = pcp.get_compounds(mol_name, "name")
@@ -887,6 +900,11 @@ def detector_de_grupos_funcionais(mol_name):
     grupos_funcionais_mol["Grupos de ureia"]["Número"] = Fragments.fr_urea(mol)
 
     return grupos_funcionais_mol
+
+
+#########################
+#   Seletor de grupos   #
+#########################
 
 def seletor_de_grupos_funcionais(dic_mol):
     dic_mol_seleto = {}
