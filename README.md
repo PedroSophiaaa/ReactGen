@@ -14,6 +14,34 @@ Os algoritmos genéticos são uma família de algoritmos de busca inspirados nos
 
 <details>
     
+__<summary>O que são grupos funcionais?</summary>__
+    
+Os grupos funcionais são sequências químicas, ou padrões de átomos, que exibem uma "função" consistente (propriedades e reatividade) independentemente da molécula em que são encontrados
+    
+</details>
+
+<details>
+    
+__<summary>Como as propriedades influenciam a molécula?</summary>__
+    
+- **Massa Molecular:** A massa molecular é a soma das massas atômicas de todos os átomos presentes em uma molécula. Ela pode influenciar em diversas propriedades, como a solubilidade, ponto de fusão e ebulição, densidade, entre outras. Moléculas com maior massa molecular tendem a ter maior ponto de fusão e ebulição, além de serem menos voláteis.
+
+- **Área de Superfície:** A área de superfície de uma molécula pode influenciar na velocidade de reações químicas. Quanto maior for a superfície de contato das substâncias reagentes, maior será a velocidade com que se processará a reação.
+
+- **LogP:** O LogP é um parâmetro que indica a tendência preferencial de um fármaco se dissolver em uma fase oleosa ou aquosa. Quanto maior o valor de LogP, mais hidrofóbico e lipossolúvel será o fármaco. Esse valor pode variar de -3 a 7, no entanto, o valor ideal para fármacos fica entre 2 a 5, isso porque valores abaixo desse limite dificultam a permeação pela membrana plasmática, enquanto que fármacos com LogP maior que 5 podem ficar retidos na membrana, devido a sua alta lipossolubilidade.
+
+- **Anéis Aromáticos:** Os anéis aromáticos são compostos orgânicos cíclicos e planares que possuem ligações duplas alternadas, que pelo fenômeno de ressonância formam nuvens de elétrons pi deslocalizadas. Eles podem influenciar em diversas propriedades, como a estabilidade química, interações intermoleculares, entre outras. Moléculas aromáticas normalmente exibem uma estabilidade química ampliada em comparação às moléculas semelhantes não aromáticas.
+
+- **Polaridade:** A polaridade das moléculas está relacionada com o fato de o composto apresentar ou não áreas com cargas diferentes (positiva e negativa). As moléculas com polos são denominadas polares, e as que não os apresentam são as apolares. A polaridade das moléculas pode influenciar em diversas propriedades, como a solubilidade, ponto de fusão e ebulição, entre outras. Por exemplo, moléculas polares tendem a ser mais solúveis em solventes polares, enquanto moléculas apolares tendem a ser mais solúveis em solventes apolares.
+
+- **Raio Molecular:** O raio molecular é a distância entre o núcleo do átomo e sua camada mais externa de elétrons. Ele pode influenciar em diversas propriedades, como a reatividade química, energia de ionização, entre outras. Átomos com maior raio tendem a ser mais reativos e ter menor energia de ionização.
+
+- **Densidade de Carga:** A densidade de carga é a quantidade de carga elétrica por unidade de volume. Ela pode influenciar em diversas propriedades, como a polaridade, reatividade química, entre outras. Moléculas com maior densidade de carga tendem a ser mais reativas e polares.
+    
+</details>
+
+<details>
+    
 __<summary>O que nosso algoritmo genético faz?</summary>__
 
 Nosso algoritmo genético é projetado para otimizar a combinação de grupos funcionais em uma molécula de referência. Aqui está uma visão geral do funcionamento do algoritmo em relação às moléculas:
@@ -91,6 +119,17 @@ As seguintes pastas compõem o repositório:
 - [grupos_funcionais.py](https://github.com/PedroSophiaaa/ReactGen/blob/main/grupos_funcionais.py): Ferramenta para detectar e selecionar os grupos funcionais presentes em uma molécula
 - [funcoes.py](https://github.com/PedroSophiaaa/ReactGen/blob/main/funcoes.py): Funções do Algoritmo Genético
 - [TrabalhoFinal.ipynb](https://github.com/PedroSophiaaa/ReactGen/blob/main/TrabalhoFinal.ipynb): Arquivo de execução do Algoritmo Genético
+
+## Referências
+[1]: WIRSANSKY, E. Hands-On Genetic Algorithms with Python: Applying genetic algorithms to solve real-world deep learning and artificial intelligence problems. [s.l.]: Packt Publishing, 2020.
+[2]: “Carbon,” de OpenStax College, Biology (CC BY 3.0).
+[3]: https://www.sbq.org.br/ranteriores/23/resumos/0205/index.html
+[4]: https://farmacologiauefs.wordpress.com/farmacocinetica/absorcao/
+[5]: https://www.infoescola.com/quimica/anel-aromatico/
+[6]: https://www.lume.ufrgs.br/bitstream/handle/10183/150648/001008353.pdf?sequence=1
+[7]: https://www.manualdaquimica.com/quimica-geral/polaridade-das-moleculas.htm
+[8]: https://edisciplinas.usp.br/pluginfile.php/804016/mod_resource/content/1/Propriedades%20f%C3%ADsico-qu%C3%ADmicas.pdf
+
 
 ## Autores
 
