@@ -38,13 +38,13 @@ O objetivo final desse algoritmo genético é encontrar a combinação de grupos
     
 __<summary>Bibliotecas utilizadas</summary>__
 
-**random:** A biblioteca 'random' é utilizada para gerar números aleatórios
+- **random:** A biblioteca 'random' é utilizada para gerar números aleatórios
     
-**copy:** A biblioteca 'copy' fornece funções para copiar objetos
+- **copy:** A biblioteca 'copy' fornece funções para copiar objetos
     
-**pubchempy:** A biblioteca 'pubchempy' é uma API que permite acessar o banco de dados do PubChem, uma plataforma de química que fornece informações sobre compostos químicos. No código, ela é utilizada para buscar informações sobre uma molécula de referência, como o SMILES (Simplified Molecular Input Line Entry System), que é uma representação textual da estrutura química
+- **pubchempy:** A biblioteca 'pubchempy' é uma API que permite acessar o banco de dados do PubChem, uma plataforma de química que fornece informações sobre compostos químicos. No código, ela é utilizada para buscar informações sobre uma molécula de referência, como o SMILES (Simplified Molecular Input Line Entry System), que é uma representação textual da estrutura química
     
-**rdkit**: O 'RDKit' é uma biblioteca de química computacional amplamente utilizada. Ela oferece uma ampla gama de recursos para manipulação, visualização e análise de moléculas. No código, as seguintes subbibliotecas do RDKit são importadas:
+- **rdkit**: O 'RDKit' é uma biblioteca de química computacional amplamente utilizada. Ela oferece uma ampla gama de recursos para manipulação, visualização e análise de moléculas. No código, as seguintes subbibliotecas do RDKit são importadas:
 
     - Chem: A subbiblioteca 'Chem' fornece classes e funções para manipulação de moléculas. Ela é usada para criar objetos Mol a partir de SMILES e calcular fórmulas moleculares
 
@@ -54,7 +54,7 @@ __<summary>Bibliotecas utilizadas</summary>__
 
     - rdMolDescriptors: A subbiblioteca 'rdMolDescriptors' contém funções relacionadas à descrição molecular, como o cálculo da fórmula molecular
     
-**PIL (Python Imaging Library):** A biblioteca 'PIL' fornece funcionalidades para processamento de imagens
+- **PIL (Python Imaging Library):** A biblioteca 'PIL' fornece funcionalidades para processamento de imagens
     
 </details>
     
