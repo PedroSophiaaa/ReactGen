@@ -92,7 +92,7 @@ As seguintes pastas compõem o repositório:
 - [funcoes.py](https://github.com/PedroSophiaaa/ReactGen/blob/main/funcoes.py): Funções do Algoritmo Genético
 - [TrabalhoFinal.ipynb](https://github.com/PedroSophiaaa/ReactGen/blob/main/TrabalhoFinal.ipynb): Arquivo de execução do Algoritmo Genético
 
-## Grupo é composto por:
+## Autores
 
 <table>
   <tr>
