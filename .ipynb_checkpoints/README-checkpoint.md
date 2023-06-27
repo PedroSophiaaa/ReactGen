@@ -98,5 +98,7 @@ As seguintes pastas compõem o repositório:
   <tr>
     <td align="center"><a href="https://github.com/Marihbn"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/107010586?v=4" width="100px;" alt=""/><br /><sub><b>Marina Barim do Nascimento</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/PedroSophiaaa"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/106617753?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Henrique Sophia</b></sub></a><br/></td>
+    <td align="center"><a href="https://github.com/TiagoMarquesHxH"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/106617887?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Henrique Sophia</b></sub></a><br/></td>
+    <td align="center"><a href="https://github.com/guilhermeilum"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/107007032?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Henrique Sophia</b></sub></a><br/></td>
   </tr>
 </table>
