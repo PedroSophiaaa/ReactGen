@@ -91,3 +91,12 @@ As seguintes pastas compõem o repositório:
 - [grupos_funcionais.py](https://github.com/PedroSophiaaa/ReactGen/blob/main/grupos_funcionais.py): Ferramenta para detectar e selecionar os grupos funcionais presentes em uma molécula
 - [funcoes.py](https://github.com/PedroSophiaaa/ReactGen/blob/main/funcoes.py): Funções do Algoritmo Genético
 - [TrabalhoFinal.ipynb](https://github.com/PedroSophiaaa/ReactGen/blob/main/TrabalhoFinal.ipynb): Arquivo de execução do Algoritmo Genético
+
+## Grupo é composto por:
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Marihbn"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/107010586?v=4" width="100px;" alt=""/><br /><sub><b>Marina Barim do Nascimento</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/PedroSophiaaa"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/106617753?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Henrique Sophia</b></sub></a><br/></td>
+  </tr>
+</table>
