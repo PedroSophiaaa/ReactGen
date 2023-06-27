@@ -6,9 +6,7 @@ import pubchempy as pcp
 from rdkit import Chem
 from rdkit.Chem import Fragments
 
-import random as rd
-
-my_seed = 32
+my_seed = 32 # Seed aleatória contendo valores aleatórios das propriedades
 
 rd.seed(my_seed)
 
@@ -790,8 +788,16 @@ grupos_funcionais = {
 #########################
 
 def grupo_funcional_aleatorio(grupos_f=grupos_funcionais):
-    lista_grupos = list(grupos_f.keys())
-    grupo = rd.choice(lista_grupos)
+    """ Função que computa um grupo funcional aleatório a partir de grupos funcionais disponíveis
+    
+    Args:
+        grupos_f: Grupos funcionais disponíveis a serem sorteados
+        
+    Returns:
+        Um grupo funcional escolhido dentre todos possíveis
+    """
+    lista_grupos = list(grupos_f.keys()) # Nomes dos grupos funcionais da lista de grupos funcionais
+    grupo = rd.choice(lista_grupos) # Escolha aleatória de um grupo da lista de grupos
 
     grupo_dic = {}
     grupo_dic[grupo] = {}
@@ -807,9 +813,17 @@ def grupo_funcional_aleatorio(grupos_f=grupos_funcionais):
 #########################
 
 def detector_de_grupos_funcionais(mol_name):
-    compound = pcp.get_compounds(mol_name, "name")
+    """ Função a qual detecta grupos funcionais presentes em moléculas obtidas pelo pubchempy, através de seu nome
+    
+    Args:
+        mol_name: O nome da molécula a qual desejamos encontrar seus grupos funcionais
+    
+    Returns:
+        Grupos funcionais que foram encontrados na molécula requisitada
+    """
+    compound = pcp.get_compounds(mol_name, "name") # Obtenção dos compostos da molécula na biblioteca pubchempy, a partir de seu nome
 
-    mol = Chem.MolFromSmiles(compound[0].isomeric_smiles)
+    mol = Chem.MolFromSmiles(compound[0].isomeric_smiles) # Através de seu nome, encontramos o seu SMILES na forma isomérica
 
     grupos_funcionais_mol = copy.deepcopy(grupos_funcionais)
 
@@ -907,7 +921,16 @@ def detector_de_grupos_funcionais(mol_name):
 #########################
 
 def seletor_de_grupos_funcionais(dic_mol):
-    dic_mol_seleto = {}
+    """ Função que seleciona grupos funcionais de uma molécula para possíveis mutações, cruzamento ou interações com outras moléculas
+    
+    Args:
+        dic_mol: Dicionário contendo os grupos funcionais da molécula
+        
+    Returns:
+        Grupos funcionais selecionados da molécula
+    """
+    dic_mol_seleto = {} # Dicionário contendo os grupos funcionais selecionados da molécula
+    # Para cada grupo funcional, se o valor de alguma propriedade for diferente de 0, este é um grupo funcional válido para ser selecionado.
     for i in dic_mol:
         if dic_mol[i]["Número"] != 0:
             dic_mol_seleto[i] = dic_mol[i]
