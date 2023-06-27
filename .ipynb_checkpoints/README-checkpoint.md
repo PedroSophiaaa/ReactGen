@@ -16,7 +16,7 @@ Os algoritmos genéticos são uma família de algoritmos de busca inspirados nos
     
 __<summary>O que são grupos funcionais?</summary>__
     
-Os grupos funcionais são sequências químicas, ou padrões de átomos, que exibem uma "função" consistente (propriedades e reatividade) independentemente da molécula em que são encontrados
+Os grupos funcionais são sequências químicas, ou padrões de átomos, que exibem uma "função" consistente (propriedades e reatividade) independentemente da molécula em que são encontrados.
     
 </details>
 
