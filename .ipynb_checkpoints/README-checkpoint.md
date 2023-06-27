@@ -122,12 +122,19 @@ As seguintes pastas compõem o repositório:
 
 ## Referências
 [1]: WIRSANSKY, E. Hands-On Genetic Algorithms with Python: Applying genetic algorithms to solve real-world deep learning and artificial intelligence problems. [s.l.]: Packt Publishing, 2020.
+
 [2]: “Carbon,” de OpenStax College, Biology (CC BY 3.0).
+
 [3]: https://www.sbq.org.br/ranteriores/23/resumos/0205/index.html
+
 [4]: https://farmacologiauefs.wordpress.com/farmacocinetica/absorcao/
+
 [5]: https://www.infoescola.com/quimica/anel-aromatico/
+
 [6]: https://www.lume.ufrgs.br/bitstream/handle/10183/150648/001008353.pdf?sequence=1
+
 [7]: https://www.manualdaquimica.com/quimica-geral/polaridade-das-moleculas.htm
+
 [8]: https://edisciplinas.usp.br/pluginfile.php/804016/mod_resource/content/1/Propriedades%20f%C3%ADsico-qu%C3%ADmicas.pdf
 
 
