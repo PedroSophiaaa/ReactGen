@@ -120,6 +120,24 @@ As seguintes pastas compõem o repositório:
 - [funcoes.py](https://github.com/PedroSophiaaa/ReactGen/blob/main/funcoes.py): Funções do Algoritmo Genético
 - [TrabalhoFinal.ipynb](https://github.com/PedroSophiaaa/ReactGen/blob/main/TrabalhoFinal.ipynb): Arquivo de execução do Algoritmo Genético
 
+<details>
+    
+__<summary>Como utilizar o código?</summary>__
+    
+- Baixe todos os arquivos necessários em uma mesma pasta em seu computador. Certifique-se de que você tenha o arquivo TrabalhoFinal.ipynb e todos os outros arquivos de suporte.
+
+- Abra o arquivo TrabalhoFinal.ipynb em um ambiente de desenvolvimento ou editor de sua preferência que suporte a execução de notebooks Jupyter.
+    
+- Certifique-se de ter as bibliotecas e dependências necessárias instaladas no ambiente em que você está executando o código. Caso não tenha alguma dessas bibliotecas instaladas, você pode instalá-las utilizando o pip ou conda, dependendo do gerenciador de pacotes que você esteja utilizando.
+    
+- Na célula que você deseja mudar a molécula, localize o trecho de código responsável pela definição da molécula. 
+    
+- Após realizar todas as modificações desejadas, execute a célula do notebook que contém o código. Isso pode ser feito pressionando Shift + Enter enquanto a célula estiver selecionada.
+    
+- Lembre-se de salvar as alterações feitas no notebook, caso deseje utilizar novamente no futuro.
+    
+</details>
+
 ## Referências
 [1]: WIRSANSKY, E. Hands-On Genetic Algorithms with Python: Applying genetic algorithms to solve real-world deep learning and artificial intelligence problems. [s.l.]: Packt Publishing, 2020.
 
